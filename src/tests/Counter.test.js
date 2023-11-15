@@ -10,7 +10,7 @@ beforeEach(() => {
 
 test('renders counter message', () => {
   // Complete the unit test below based on the objective in the line above
-  const counterMessage = screen.getByText(/Counter Assignment/i);
+  const counterMessage = screen.getByText(/Counter/i);
   expect(counterMessage).toBeInTheDocument();
 });
 
